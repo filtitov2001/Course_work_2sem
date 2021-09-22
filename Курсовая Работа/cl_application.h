@@ -1,9 +1,11 @@
 #ifndef _CL_APPLICATION_H
 #define _CL_APPLICATION_H
+
 #include "Base.h"
+
 using namespace std;
-class cl_application :public Base
-{
+
+class cl_application :public Base {
 	private:
 		string inStr;
 	public:
