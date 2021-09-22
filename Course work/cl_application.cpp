@@ -8,11 +8,11 @@
 
 using namespace std;
 
-cl_application::cl_application(Base* parent, string name) :Base(parent, name) {
+cl_application::cl_application(Base* parent, string name): Base(parent, name) {
 	cl_num = 1;
 }
 
-cl_application::cl_application(Base* parent) : Base(parent) {
+cl_application::cl_application(Base* parent): Base(parent) {
 	cl_num = 1;
 }
 
