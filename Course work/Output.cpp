@@ -1,14 +1,17 @@
 #include "Output.h"
+
 #include <iostream>
-Output::Output(Base* parent, string name) :Base(parent, name)
-{
+
+Output::Output(Base* parent, string name): Base(parent, name) {
 	cl_num = 4;
 }
-void Output::print(string task) // метод вывода результатов операций
-{
-	if (first)
+
+void Output::print(string task) { // method for displaying the results of operations
+	if (first) {
 		cout << task;
-	else
+	} else {
 		cout << "\n" << task;
+	}
+	
 	first = false;
 }
