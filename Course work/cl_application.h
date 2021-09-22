@@ -5,9 +5,11 @@
 
 using namespace std;
 
-class cl_application :public Base {
+class cl_application: public Base {
+	
 	private:
 		string inStr;
+	
 	public:
 		cl_application(Base* parent, string name);
 		cl_application(Base* parent);
