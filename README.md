@@ -24,6 +24,7 @@ Develop a program that accepts an integer arithmetic expression without parenthe
   3. To display the next intermediate result.
  
 Write a program that implements the following algorithm: 
+
 1. Input an arithmetic expression.  
 2. Definition of the first operand.  
 3. Issuing "signal_1" and transferring the first operand.  
@@ -35,6 +36,7 @@ Write a program that implements the following algorithm:
 5. End of the cycle.  
 
 In the handlers of the processing object, implement the operation: 
+
 Upon receipt of "signal_1": store the value of the first operand.  
 Upon receipt of "signal_2": save the operation symbol.  
 Upon receipt of "signal_3": perform the operation, issue "signal_4" and send a string for output.
