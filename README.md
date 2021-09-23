@@ -27,9 +27,8 @@ Write a program that implements the following algorithm:
 
 1. Input an arithmetic expression.  
 2. Definition of the first operand.  
-3. Issuing "signal_1" and transferring the first operand.  
+3. Issuing "signal_1" and transferring the first operand.
 4. Loop until the end of an arithmetic expression.
-
  4.1. Determining the next operation.  
  4.2. Issuing "siqnal_2" and transmitting the operation symbol.  
  4.3. Determination of the next operand.  
