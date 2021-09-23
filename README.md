@@ -7,7 +7,7 @@
 </div>
 
 ## Formulation of the task
-<div align="center">
+
 
 The essence of the assignment was to create a console application using only OOP principles, signals and handlers. 
 
@@ -18,4 +18,4 @@ Develop a program that accepts an integer arithmetic expression without parenthe
   2. To practice the operation.  
   3. To display the next intermediate result.
  
- </div>
+
