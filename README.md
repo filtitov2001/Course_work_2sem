@@ -23,7 +23,7 @@ Create objects:
   2. To practice the operation.  
   3. To display the next intermediate result.
  
-Write a program that implements the following algorithm: 
+Create a program that implements the following algorithm: 
 
 1. Input an arithmetic expression.  
 2. Definition of the first operand.  
